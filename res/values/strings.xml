@@ -61,6 +61,7 @@
   <string name="music_play_entry">Play/Pause music</string>
   <string name="music_prev_entry">Prev track</string>
   <string name="music_next_entry">Next track</string>
+  <string name="ambient_display_entry">Doze</string>
   <string name="choose_app">Choose app/action</string>
   <string name="not_ready_summary">Resolving...</string>
   <string name="resolve_failed_summary">Resolving app failed</string>
@@ -95,12 +96,12 @@
   <string name="slider_mode_title_center">Center position</string>
   <string name="slider_mode_title_bottom">Bottom position</string>
   <string name="slider_mode_alarm">Alarms only</string>
-  <string name="slider_mode_flashlight">Flashlight on/off</string>
   <string name="slider_mode_off">Ringer</string>
   <string name="slider_mode_priority">Priority only</string>
   <string name="slider_mode_silent">Silent</string>
   <string name="slider_mode_vibrate">Vibrate</string>
   <string name="slider_mode_zen">DND</string>
+  <string name="slider_mode_flashlight">Flashlight</string>
 
   <!-- Display/Graphics options -->
   <string name="graphics_title">Display</string>
@@ -114,16 +115,16 @@
   <string name="panel_category_summary">Display modes for color correction</string>
   <string name="panel_mode_info">Disabling color modes requires a reboot.</string>
   <string name="off_mode_title">Off</string>
-  <string name="Night_mode_title">Night mode</string>
-  <string name="Night_mode_summary"></string>
   <string name="srgb_mode_title">sRGB mode</string>
   <string name="srgb_mode_summary"></string>
   <string name="dci_mode_title">DCI-P3 mode</string>
   <string name="dci_mode_summary"></string>
-  <string name="Wide_mode_title">AMOLED Wide Colour Gamut</string>
-  <string name="Wide_mode_summary"></string>
+  <string name="wide_mode_title">AMOLED Wide Colour Gamut</string>
+  <string name="wide_mode_summary"></string>
   <string name="oneplus_mode_title">OnePlus mode</string>
   <string name="oneplus_mode_summary"></string>
+  <string name="night_mode_title">Night mode</string>
+  <string name="night_mode_summary"></string>
 
   <!-- Screen refresh rate options -->
   <string name="refresh_title">Screen refresh</string>
@@ -135,6 +136,17 @@
 
   <!-- QS Tiles -->
   <string name="tile_hbm_mode">High brightness mode</string>
+  <string name="tile_dcd_mode">DC Dimming mode</string>
   <string name="tile_panel_mode">Color modes</string>
   <string name="tile_refresh_rate">Screen refresh rate</string>
+
+  <!-- Ambient Display -->
+  <string name="category_doze">Ambient Display</string>
+  <string name="doze_category_title">Notifications</string>
+  <string name="doze_category_summary">Configure when to wake screen for notifications</string>
+
+  <!-- Buttons -->
+  <string name="buttons_title">Buttons</string>
+  <string name="swap_back_recents_summary"></string>
+  <string name="swap_back_recents_title">Swap back and recents button</string>
 </resources>
