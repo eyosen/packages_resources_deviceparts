@@ -14,9 +14,9 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name">DeviceParts</string>
+  <string name="app_name">PartsBin</string>
   <string name="device_title">Additional device settings</string>
-  <string name="device_summary">Adjust manufacturer-specific device settings</string>
+  <string name="device_summary">Adjust unique device settings</string>
   <string name="advanced_settings">Advanced settings</string>
 
   <string name="wake_entry">Wakeup</string>
@@ -65,6 +65,11 @@
   <string name="choose_app">Choose app/action</string>
   <string name="not_ready_summary">Resolving...</string>
   <string name="resolve_failed_summary">Resolving app failed</string>
+
+  <!-- fastcharge -->
+  <string name="category_power">Power</string>
+  <string name="fastcharge_summary">Fastcharge up to 900mA</string>
+  <string name="fastcharge_title">Fastcharge</string>
 
   <!-- fingerprnt gestures - NOT for in-screen sensors -->
   <string name="fp_gesture_title">Fingerprint gestures</string>
