@@ -76,10 +76,16 @@
   <string name="not_ready_summary">Resolving...</string>
   <string name="resolve_failed_summary">Resolving app failed</string>
 
-  <!-- headphone gain -->
-  <string name="category_headphone_gain">Headphone gain</string>
-  <string name="headphone_gain_title">Headphone gain</string>
-  <string name="headphone_gain_summary">set gain for headphones</string>
+  <!-- audio gain -->
+  <string name="category_audiogains">Audio gains</string>
+  <string name="headphone_gain_title">Headphone</string>
+  <string name="headphone_gain_summary">Adjust for headphones</string>
+  <string name="earpiece_gain_title">Earpiece</string>
+  <string name="earpiece_gain_summary">Adjust for earpiece</string>
+  <string name="mic_gain_title">Microphone</string>
+  <string name="mic_gain_summary">Adjust for microphone</string>
+  <string name="speaker_gain_title">Speakers</string>
+  <string name="speaker_gain_summary">Adjust for speakers</string>
 
   <!-- fingerprnt gestures - NOT for in-screen sensors -->
   <string name="fp_gesture_title">Fingerprint gestures</string>
