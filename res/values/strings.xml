@@ -35,6 +35,7 @@
   <string name="category_backlight_dimmer">Backlight dimmer</string>
   <string name="backlight_dimmer_title">Backlight dimmer</string>
   <string name="backlight_dimmer_summary">set minimal display brightness</string>
+  <string name="backlight_dimmer_rev_summary">set maximal display brightness</string>
 
   <!-- fastcharge -->
   <string name="category_power">Power</string>
