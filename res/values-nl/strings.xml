@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+  <string name="device_title">Extra apparaatinstellingen</string>
+  <string name="device_summary">Unieke apparaatinstellingen aanpassen</string>
+  <string name="advanced_settings">Geavanceerde instelingen</string>
+  <string name="wake_entry">Wakker worden</string>
+  <string name="single_tap_title">Enkele tik</string>
+  <!-- Audio/Sound enhancer -->
+  <string name="category_audio">Audio</string>
+  <string name="sound_title">Geluid verbeteren</string>
+  <string name="sound_summary">Configureer de audio-uitvoer gebaseerd op de media-inhoud.</string>
+  <string name="enable_sound_title">Inschakelen/uitschakelen van geluidtuner</string>
+  <!-- backlight dimmer -->
+  <string name="category_backlight_dimmer">Achtergrondverlichting dimmer</string>
+  <string name="backlight_dimmer_title">Achtergrondverlichting dimmer</string>
+  <string name="backlight_dimmer_summary">stel minimale helderheid in</string>
+  <!-- fastcharge -->
+  <string name="category_power">Power</string>
+  <string name="fastcharge_summary">Snelladen tot 900mA</string>
+  <string name="fastcharge_title">Snelladen</string>
+  <!-- Gesture options -->
+  <string name="screen_gestures_panel_title">Gebaren</string>
+  <string name="category_gestures_title">Apparaatgebaren</string>
+  <string name="category_gestures_summary">Configureer gebaaracties</string>
+  <string name="offscreen_gesture_title">Offscreen gebaren</string>
+  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
+  <!-- <string name="proxi_title_head">Proximity check</string> -->
+  <string name="off_screen_gesture_feedback_title_head">Haptische feedback</string>
+  <string name="off_screen_gesture_feedback_summary_head">Schakel haptische feedback in voor gebaren</string>
+  <string name="music_play_gesture_title_head">Muziek beheren</string>
+  <string name="music_play_gesture_summary_head">Teken || met twee vingers om muziek te spelen of te pauzeren. Teken &lt; of &gt; voor het vorige of volgende nummer</string>
+  <string name="category_down_swipe_gesture">Veeg omlaag</string>
+  <string name="category_up_swipe_gesture">Veeg omhoog</string>
+  <string name="category_left_swipe_gesture">Veeg naar links</string>
+  <string name="category_right_swipe_gesture">Veeg naar rechts</string>
+  <string name="category_double_swipe_gesture">|| gebaar</string>
+  <string name="category_up_arrow_gesture">A gebaar</string>
+  <string name="category_left_arrow_gesture">&lt; gebaar</string>
+  <string name="category_right_arrow_gesture">&gt; gebaar</string>
+  <string name="category_circle_gesture">O gebaar</string>
+  <string name="category_down_arrow_gesture">V gebaar</string>
+  <string name="category_m_gesture">M gebaar</string>
+  <string name="category_s_gesture">S gebaar</string>
+  <string name="category_w_gesture">W gebaar</string>
+  <string name="disabled_entry">Uitgeschakeld</string>
+  <string name="camera_entry">Camera</string>
+  <string name="torch_entry">Zaklamp</string>
+  <string name="music_play_entry">Muziek afspelen/pauzeren</string>
+  <string name="music_prev_entry">Vorig nummer</string>
+  <string name="music_next_entry">Volgend nummer</string>
+  <string name="ambient_display_entry">Sluimeren</string>
+  <string name="choose_app">App/actie kiezen</string>
+  <string name="not_ready_summary">Oplossen...</string>
+  <!-- audio gain -->
+  <string name="headphone_gain_title">Hoofdtelefoon</string>
+  <string name="headphone_gain_summary">Aanpassen voor hoofdtelefoon</string>
+  <string name="earpiece_gain_title">Oortelefoon</string>
+  <string name="earpiece_gain_summary">Aanpassen voor oortelefoon</string>
+  <string name="mic_gain_title">Microfoon</string>
+  <string name="mic_gain_summary">Aanpassen voor microfoon</string>
+  <string name="speaker_gain_title">Luidsprekers</string>
+  <string name="speaker_gain_summary">Aanpassen voor luidsprekers</string>
+  <!-- fingerprnt gestures - NOT for in-screen sensors -->
+  <string name="fp_gesture_title">Vingerafdruk gebaren</string>
+  <string name="fp_gesture_title_summary">Voer snelle acties uit door over de vingerafdruk scanner te vegen</string>
+  <string name="category_fp_down_swipe_gesture">Vingerafdruk omlaag vegen</string>
+  <string name="category_fp_up_swipe_gesture">Vingerafdruk omhoog vegen</string>
+  <string name="category_fp_right_swipe_gesture">Vingerafdruk rechts vegen</string>
+  <string name="category_fp_left_swipe_gesture">Vingerafdruk links vegen</string>
+  <string name="category_fp_long_press_gesture">Vingerafdruk lang indrukken</string>
+  <!-- Vibrator options -->
+  <string name="vib_test">Test</string>
+  <string name="vib_strength_title">Systeem</string>
+  <string name="vib_notif_strength_title">Notificaties</string>
+  <string name="vib_notif_strength_summary">Definieer de sterkte voor inkomende meldingen afzonderlijk</string>
+  <!-- Alert Slider options -->
+  <string name="category_slider">Schuifregelaar meldingen</string>
+  <string name="slider_mode_title">Slider modus</string>
+  <string name="slider_mode_title_top">Bovenste positie</string>
+  <string name="slider_mode_title_center">Centrale positie</string>
+  <string name="slider_mode_title_bottom">Onderste positie</string>
+  <string name="slider_mode_alarm">Alleen alarmen</string>
+  <string name="slider_mode_off">Beltoon</string>
+  <string name="slider_mode_priority">Alleen prioriteit</string>
+  <string name="slider_mode_silent">Stil</string>
+  <string name="slider_mode_vibrate">Trillen</string>
+  <string name="slider_mode_zen">Niet storen</string>
+  <string name="slider_mode_flashlight">Zaklamp</string>
+  <!-- Display/Graphics options -->
+  <string name="hbm_mode_title">Hoge helderheidsmodus</string>
+  <string name="hbm_mode_summary">Schakel maximale helderheid in voor heldere omgeving (heeft invloed op levensduur van de batterij!)</string>
+  <!-- Display panel options -->
+  <string name="panel_category_title">Kleurmodi</string>
+  <string name="panel_category_summary">Modi weergeven voor kleurcorrectie</string>
+  <string name="panel_mode_info">Het uitschakelen van de kleur modi vereist een herstart.</string>
+  <string name="off_mode_title">Uit</string>
+  <string name="srgb_mode_title">sRGB modus</string>
+  <string name="dci_mode_title">DCI-P3 modus</string>
+  <string name="oneplus_mode_title">OnePlus modus</string>
+  <string name="night_mode_title">Nachtmodus</string>
+  <!-- Screen refresh rate options -->
+  <string name="refresh_title">Scherm vernieuwen</string>
+  <string name="refresh_rate_title">Forceer maximale verversingsfrequentie</string>
+  <string name="auto_refresh_rate_title">Automatisch verversen modus</string>
+  <string name="auto_refresh_rate_summary">Laat apps beslissen welke verversingsfrequentie gebruikt moet worden</string>
+  <!-- QS Tiles -->
+  <string name="tile_hbm_mode">Hoge helderheidsmodus</string>
+  <string name="tile_panel_mode">Kleurmodi</string>
+  <string name="tile_refresh_rate">Scherm verversingsfrequentie</string>
+  <!-- Ambient Display -->
+  <string name="category_doze">Inactiviteitsdisplay</string>
+  <string name="doze_category_title">Notificaties</string>
+  <string name="doze_category_summary">Instellen wanneer het scherm moet ontwaken bij meldingen</string>
+  <!-- Buttons -->
+  <string name="buttons_title">Knoppen</string>
+  <string name="swap_back_recents_title">Wissel Terug en Recents knop</string>
+</resources>
