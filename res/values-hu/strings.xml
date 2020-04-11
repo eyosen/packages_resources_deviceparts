@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+  <string name="device_title">További készülékbeállítások</string>
+  <string name="device_summary">Egyedi készülékbeállítások adhatók meg</string>
+  <string name="advanced_settings">Speciális beállítások</string>
+  <string name="wake_entry">Felébresztés</string>
+  <string name="single_tap_title">Egyszeri érintés</string>
+  <string name="single_tap_summary">AOD-módban egy egyszeri érintés felébreszti a képernyőt</string>
+  <!-- Audio/Sound enhancer -->
+  <string name="category_audio">Hang</string>
+  <string name="sound_title">Hangminőség-javítás</string>
+  <string name="sound_summary">A médiatartalomhoz állítsa be a kimeneti hangot.</string>
+  <string name="enable_sound_title">Hangzásszabályozó engedélyezése/tiltása</string>
+  <string name="enable_sound_summary">A kapcsolás után újraindítás SZÜKSÉGES!</string>
+  <string name="enable_sound_info">Figyelem: Ha a Hangzásszabályozó engedélyezett, a többi hangszínszabályozó-hatás (pl. MusicFX) kikapcsolásra kerül.</string>
+  <!-- backlight dimmer -->
+  <!-- fastcharge -->
+  <string name="category_power">Energiaellátás</string>
+  <string name="fastcharge_summary">Gyorstöltés 900mA-ig</string>
+  <string name="fastcharge_title">Gyorstöltés</string>
+  <!-- Gesture options -->
+  <string name="screen_gestures_panel_title">Mozdulatvezérlés</string>
+  <string name="category_gestures_title">Készülékvezérlő-mozdulatok</string>
+  <string name="category_gestures_summary">Mozdulattal indított műveletek beállítása</string>
+  <string name="offscreen_gesture_title">Képernyőn kívüli mozdulatok</string>
+  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
+  <!-- <string name="proxi_title_head">Proximity check</string> -->
+  <string name="off_screen_gesture_feedback_title_head">Érintési visszajelzés</string>
+  <string name="off_screen_gesture_feedback_summary_head">Engedélyezi a mozdulatvezérlés rezgéssel való visszajelzését</string>
+  <string name="music_play_gesture_title_head">Zenevezérlés</string>
+  <string name="music_play_gesture_summary_head">A zene lejátszásához vagy szüneteltetéséhez rajzoljon két ujjal egy || alakzatot. A következő vagy az előző számra ugráshoz rajzoljon &lt; vagy &gt; jelet</string>
+  <string name="category_down_swipe_gesture">Lefelé csúsztatás</string>
+  <string name="category_up_swipe_gesture">Felfelé csúsztatás</string>
+  <string name="category_left_swipe_gesture">Balra csúsztatás</string>
+  <string name="category_right_swipe_gesture">Jobbra csúsztatás</string>
+  <string name="category_double_swipe_gesture">|| mozdulatvezérlés</string>
+  <string name="category_up_arrow_gesture">A mozdulat</string>
+  <string name="category_left_arrow_gesture">&lt; mozdulat</string>
+  <string name="category_right_arrow_gesture">&gt; mozdulat</string>
+  <string name="category_circle_gesture">O mozdulat</string>
+  <string name="category_down_arrow_gesture">V mozdulat</string>
+  <string name="category_m_gesture">M mozdulat</string>
+  <string name="category_s_gesture">S mozdulat</string>
+  <string name="category_w_gesture">W mozdulat</string>
+  <string name="disabled_entry">Letiltva</string>
+  <string name="camera_entry">Kamera</string>
+  <string name="torch_entry">Zseblámpa</string>
+  <string name="music_play_entry">Zene lejátszása/megállítása</string>
+  <string name="music_prev_entry">Előző zeneszám</string>
+  <string name="music_next_entry">Következő zeneszám</string>
+  <string name="ambient_display_entry">Doze</string>
+  <string name="choose_app">Alkalmazás/műveletválasztó</string>
+  <string name="not_ready_summary">Megoldás alatt...</string>
+  <string name="resolve_failed_summary">Az alkalmazás feloldása meghiúsult</string>
+  <!-- audio gain -->
+  <!-- fingerprnt gestures - NOT for in-screen sensors -->
+  <string name="fp_gesture_title">Mozdulatvezérlés az ujjlenyomat-olvasón</string>
+  <string name="fp_gesture_title_summary">Gyorsparancsokat adhat ki az ujjlenyomat-érzékelőn keresztül</string>
+  <string name="category_fp_down_swipe_gesture">Lefelé csúsztatás az ujjlenyomat-olvasón</string>
+  <string name="category_fp_up_swipe_gesture">Felfelé csúsztatás az ujjlenyomat-olvasón</string>
+  <string name="category_fp_right_swipe_gesture">Jobbra csúsztatás az ujjlenyomat-olvasón</string>
+  <string name="category_fp_left_swipe_gesture">Balra csúsztatás az ujjlenyomat-olvasón</string>
+  <string name="category_fp_long_press_gesture">Az ujjlenyomat-olvasó hosszú megnyomása</string>
+  <string name="fp_swipe_down_switch_title_head">AOSP lefelé csúsztatás az ujjlenyomat-olvasón</string>
+  <string name="fp_swipe_down_switch_summary_head">Az értesítések alapértelmezett lefelécsúsztatási vezérlőjének ki és bekapcsolása</string>
+  <!-- Vibrator options -->
+  <string name="category_vibrator">Rezgőmotor</string>
+  <string name="vib_test">Teszt</string>
+  <string name="vib_strength_info">Figyelem:\n\nElőbb engedélyezze a rezgést a Beállítások / Kisegítő lehetőségek / Rezgés menüben, hogy a változtatás közben kapjon visszajelzést.</string>
+  <string name="vib_strength_title">Rendszer</string>
+  <string name="vib_strength_summary">A rezgések általános erősségének beállítása</string>
+  <string name="vib_call_strength_title">Hívás közben</string>
+  <string name="vib_call_strength_summary">A rezgések hívás közbeni erősségének beállítása</string>
+  <string name="vib_notif_strength_title">Értesítések</string>
+  <string name="vib_notif_strength_summary">A rezgések értesítéskori erősségének beállítása</string>
+  <!-- Alert Slider options -->
+  <string name="category_slider">Csúszka-figyelmeztetés</string>
+  <string name="slider_mode_title">Csúszka-mód</string>
+  <string name="slider_mode_title_top">Felső pozíció</string>
+  <string name="slider_mode_title_center">Középső pozíció</string>
+  <string name="slider_mode_title_bottom">Alsó pozíció</string>
+  <string name="slider_mode_alarm">Csak az ébresztések</string>
+  <string name="slider_mode_off">Csengetés</string>
+  <string name="slider_mode_priority">Csak a fontosak</string>
+  <string name="slider_mode_silent">Néma</string>
+  <string name="slider_mode_vibrate">Rezgés</string>
+  <string name="slider_mode_zen">Ne zavarjanak (DND)</string>
+  <string name="slider_mode_flashlight">Zseblámpa</string>
+  <!-- Display/Graphics options -->
+  <string name="graphics_title">Megjelenítés</string>
+  <string name="dcd_mode_title">DC-kiegyenlítés</string>
+  <string name="dcd_mode_summary">Csökkenti a túlfeszültségből adódó képernyővibrálást</string>
+  <string name="hbm_mode_title">Magas fényerejű mód</string>
+  <string name="hbm_mode_summary">Engedélyezi a maximális fényerőt világos környezetben is (növeli az akkufogyasztást!)</string>
+  <!-- Display panel options -->
+  <string name="panel_category_title">Színkezelés</string>
+  <string name="panel_category_summary">Megjelenítési módok a színkorrekcióhoz</string>
+  <string name="panel_mode_info">A színkezelés letiltásához újraindítás szükséges.</string>
+  <string name="off_mode_title">Ki</string>
+  <string name="srgb_mode_title">sRGB-mód</string>
+  <string name="dci_mode_title">DCI-P3-mód</string>
+  <string name="wide_mode_title">AMOLED széles színtartomány</string>
+  <string name="oneplus_mode_title">OnePlus-mód</string>
+  <string name="night_mode_title">Éjszakai mód</string>
+  <!-- Screen refresh rate options -->
+  <string name="refresh_title">Képernyőfrissítés</string>
+  <string name="refresh_rate_title">A maximális képernyőfrissítés erőltetése</string>
+  <string name="refresh_rate_summary">Válasszon a különböző frissítési értékek közül</string>
+  <string name="refresh_rate_warning">A maximális képernyőfrissítési erőltetés használata erőteljesen kihat az akkuhasználatra</string>
+  <string name="auto_refresh_rate_title">Automatikus frissítési mód</string>
+  <string name="auto_refresh_rate_summary">Az alkalmazás dönti el, hogy milyen frissítést használ</string>
+  <!-- QS Tiles -->
+  <string name="tile_hbm_mode">Magas fényerejű mód</string>
+  <string name="tile_dcd_mode">Kijelzővibráció-csökkentés</string>
+  <string name="tile_panel_mode">Színkezelés</string>
+  <string name="tile_refresh_rate">A képernyő frissítési értéke</string>
+  <!-- Ambient Display -->
+  <string name="category_doze">Környezeti kijelző</string>
+  <string name="doze_category_title">Értesítések</string>
+  <string name="doze_category_summary">Beállítható melyik értesítések ébreszthetik fel a képernyőt</string>
+  <!-- Buttons -->
+  <string name="buttons_title">Gombok</string>
+  <string name="swap_back_recents_title">A Vissza és Előzmények gombok felcserelése</string>
+</resources>
