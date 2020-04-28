@@ -22,6 +22,10 @@
   <string name="wake_entry">Wakeup</string>
   <string name="single_tap_title">Single tap</string>
   <string name="single_tap_summary">Wake the display on single tap in AOD mode</string>
+  <string name="double_tap_title">Double tap to wake</string>
+  <string name="double_tap_summary">Wake the display on double tap</string>
+  <string name="sweep_to_wake_title">Sweep to wake</string>
+  <string name="sweep_to_wake_summary">Wake your phone by sweeping on the bottom of the display from left to right</string>
 
   <!-- Audio/Sound enhancer -->
   <string name="category_audio">Audio</string>
