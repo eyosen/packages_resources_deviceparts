@@ -175,4 +175,11 @@
   <string name="buttons_title">Buttons</string>
   <string name="swap_back_recents_summary"></string>
   <string name="swap_back_recents_title">Swap back and recents button</string>
+
+  <!-- Dolby -->
+  <string name="audio_title">Audio</string>
+  <string name="dolby_title">Dolby Atmos</string>
+  <string name="enable_dolby_title">Enable/Disable Dolby Atmos</string>
+  <string name="enable_dolby_summary">Switching REQUIRES a reboot to take effect!</string>
+  <string name="enable_dolby_info">Note: With Dolby Atmos enabled, other EQ effects like MusicFX are disabled on all outputs.</string>
 </resources>
