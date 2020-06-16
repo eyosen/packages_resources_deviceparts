@@ -175,4 +175,8 @@
   <string name="buttons_title">Buttons</string>
   <string name="swap_back_recents_summary"></string>
   <string name="swap_back_recents_title">Swap back and recents button</string>
+
+  <!-- Dolby -->
+  <string name="audio_title">Audio</string>
+  <string name="dolby_title">Dolby Atmos</string>
 </resources>
