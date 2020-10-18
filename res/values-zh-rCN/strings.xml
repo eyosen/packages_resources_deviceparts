@@ -14,20 +14,126 @@
      limitations under the License.
 -->
 <resources>
-  <!-- Audio/Sound enhancer -->
-  <!-- backlight dimmer -->
-  <!-- fastcharge -->
-  <!-- Gesture options -->
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
-  <!-- audio gain -->
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
-  <!-- Vibrator options -->
-  <!-- Alert Slider options -->
-  <!-- Display/Graphics options -->
-  <!-- Display panel options -->
-  <!-- Screen refresh rate options -->
-  <!-- QS Tiles -->
-  <!-- Ambient Display -->
-  <!-- Buttons -->
+  <string name="device_title">附加的设备设置</string>
+  <string name="device_summary">调整特定设备的设置</string>
+  <string name="advanced_settings">高级设置</string>
+  <string name="wake_entry">唤醒</string>
+  <string name="single_tap_title">单击</string>
+  <string name="single_tap_summary">环境显示模式时单击唤醒</string>
+  <string name="double_tap_title">双击唤醒</string>
+  <string name="double_tap_summary">双击时唤醒屏幕</string>
+  <string name="sweep_to_wake_title">滑动唤醒</string>
+  <string name="sweep_to_wake_summary">从左到右扫动显示屏底部以唤醒手机</string>
+  <string name="category_audio">音频</string>
+  <string name="sound_title">声音改进</string>
+  <string name="sound_summary">基于媒体内容配置音频输出。</string>
+  <string name="enable_sound_title">启用/禁用声音调谐器</string>
+  <string name="enable_sound_summary">切换重启以生效！</string>
+  <string name="enable_sound_info">注意：声音调节器启用时，应禁用 MusicFX 等其他 EQ 特效。</string>
+  <string name="category_backlight_dimmer">背光调光器</string>
+  <string name="backlight_dimmer_title">背光调光器</string>
+  <string name="backlight_dimmer_summary">设置最小显示亮度</string>
+  <string name="backlight_dimmer_rev_summary">设置最大显示亮度</string>
+  <string name="category_power">电源</string>
+  <string name="fastcharge_summary">快速充电到 900mA</string>
+  <string name="fastcharge_title">快速充电</string>
+  <string name="screen_gestures_panel_title">手势</string>
+  <string name="category_gestures_title">设备手势</string>
+  <string name="category_gestures_summary">配置手势动作</string>
+  <string name="offscreen_gesture_title">息屏手势</string>
+  <string name="off_screen_gesture_feedback_title_head">触觉反馈</string>
+  <string name="off_screen_gesture_feedback_summary_head">为手势启用振动反馈</string>
+  <string name="music_play_gesture_title_head">音乐控制</string>
+  <string name="music_play_gesture_summary_head">用两个手指画两竖 \"||”，即可播放或暂停音乐。画一个“&lt;”或“&gt;”，即可转到上一曲或下一曲</string>
+  <string name="category_down_swipe_gesture">向下滑动</string>
+  <string name="category_up_swipe_gesture">向上滑动</string>
+  <string name="category_left_swipe_gesture">向左滑动</string>
+  <string name="category_right_swipe_gesture">向右滑动</string>
+  <string name="category_double_swipe_gesture">|| 手势操作</string>
+  <string name="category_up_arrow_gesture">手势</string>
+  <string name="category_left_arrow_gesture">&lt; 手势</string>
+  <string name="category_right_arrow_gesture">&gt; 手势</string>
+  <string name="category_circle_gesture">O 手势</string>
+  <string name="category_down_arrow_gesture">V 手势</string>
+  <string name="category_m_gesture">M 手势</string>
+  <string name="category_s_gesture">S 手势</string>
+  <string name="category_w_gesture">W 手势</string>
+  <string name="disabled_entry">禁用</string>
+  <string name="camera_entry">相机</string>
+  <string name="torch_entry">手电筒</string>
+  <string name="music_play_entry">播放/暂停音乐</string>
+  <string name="music_prev_entry">上一音轨</string>
+  <string name="music_next_entry">下一个曲目</string>
+  <string name="ambient_display_entry">Doze</string>
+  <string name="choose_app">选择应用/动作</string>
+  <string name="not_ready_summary">解决中</string>
+  <string name="resolve_failed_summary">应用程序无法解决</string>
+  <string name="category_audiogains">音频增益</string>
+  <string name="headphone_gain_title">头戴式耳机</string>
+  <string name="headphone_gain_summary">为头戴式耳机调整</string>
+  <string name="earpiece_gain_title">入耳式耳机</string>
+  <string name="earpiece_gain_summary">为入耳式耳机调整</string>
+  <string name="mic_gain_title">麦克风</string>
+  <string name="mic_gain_summary">为麦克风调整</string>
+  <string name="speaker_gain_title">扬声器</string>
+  <string name="speaker_gain_summary">为扬声器调整</string>
+  <string name="fp_gesture_title">指纹手势</string>
+  <string name="fp_gesture_title_summary">通过在指纹扫描器上滑动来执行快速操作</string>
+  <string name="category_fp_down_swipe_gesture">向下滑动指纹</string>
+  <string name="category_fp_up_swipe_gesture">向上滑动指纹</string>
+  <string name="category_fp_right_swipe_gesture">向右滑动指纹</string>
+  <string name="category_fp_left_swipe_gesture">向左滑动指纹</string>
+  <string name="category_fp_long_press_gesture">长按指纹</string>
+  <string name="fp_swipe_down_switch_title_head">AOSP 指纹下拉手势</string>
+  <string name="fp_swipe_down_switch_summary_head">打开/关闭默认通知下滑手势</string>
+  <string name="category_vibrator">振动</string>
+  <string name="vib_test">测试</string>
+  <string name="vib_strength_info">注意：\n\n请首先在设置中启用振动 -&gt; 辅助功能 -&gt; 振动以便在更改强度时获得触觉反馈。</string>
+  <string name="vib_strength_title">系统</string>
+  <string name="vib_strength_summary">自定义振动强度</string>
+  <string name="vib_call_strength_title">通话中</string>
+  <string name="vib_call_strength_summary">单独定义通话活动的强度</string>
+  <string name="vib_notif_strength_title">通知</string>
+  <string name="vib_notif_strength_summary">单独定义入站通知的强度</string>
+  <string name="category_slider">警报滑块</string>
+  <string name="slider_mode_title">滑块模式</string>
+  <string name="slider_mode_title_top">顶部位置</string>
+  <string name="slider_mode_title_center">中心位置</string>
+  <string name="slider_mode_title_bottom">底部位置</string>
+  <string name="slider_mode_alarm">仅限闹铃</string>
+  <string name="slider_mode_off">振铃</string>
+  <string name="slider_mode_priority">仅优先级</string>
+  <string name="slider_mode_silent">静音</string>
+  <string name="slider_mode_vibrate">振动</string>
+  <string name="slider_mode_zen">请勿打扰</string>
+  <string name="slider_mode_flashlight">手电筒</string>
+  <string name="graphics_title">显示</string>
+  <string name="dcd_mode_title">DC 调光</string>
+  <string name="dcd_mode_summary">通过压低显示器来减少闪烁</string>
+  <string name="hbm_mode_title">高亮度模式</string>
+  <string name="hbm_mode_summary">为亮色环境启用最大亮度 (影响电池寿命!)</string>
+  <string name="panel_category_title">颜色模式</string>
+  <string name="panel_category_summary">显示颜色校正模式</string>
+  <string name="panel_mode_info">禁用颜色模式需要重启。</string>
+  <string name="off_mode_title">关闭</string>
+  <string name="srgb_mode_title">sRGB 模式</string>
+  <string name="dci_mode_title">DCI-P3 模式</string>
+  <string name="wide_mode_title">AMOLED 广色域</string>
+  <string name="oneplus_mode_title">一加模式</string>
+  <string name="night_mode_title">夜间模式</string>
+  <string name="refresh_title">屏幕刷新率</string>
+  <string name="refresh_rate_title">强制最大刷新率</string>
+  <string name="refresh_rate_summary">选择不同峰值刷新率</string>
+  <string name="refresh_rate_warning">强制使用最大刷新速率将对电池寿命产生重大影响</string>
+  <string name="auto_refresh_rate_title">自动刷新模式</string>
+  <string name="auto_refresh_rate_summary">由应用决定刷新率</string>
+  <string name="tile_hbm_mode">高亮模式</string>
+  <string name="tile_dcd_mode">DC 调光模式</string>
+  <string name="tile_panel_mode">颜色模式：</string>
+  <string name="tile_refresh_rate">屏幕刷新率</string>
+  <string name="category_doze">主动显示</string>
+  <string name="doze_category_title">通知</string>
+  <string name="doze_category_summary">配置何时唤醒屏幕</string>
+  <string name="buttons_title">按钮</string>
+  <string name="swap_back_recents_title">交换返回和最近任务按钮</string>
 </resources>

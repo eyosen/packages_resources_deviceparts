@@ -19,26 +19,21 @@
   <string name="advanced_settings">Geavanceerde instelingen</string>
   <string name="wake_entry">Wakker worden</string>
   <string name="single_tap_title">Enkele tik</string>
-  <!-- Audio/Sound enhancer -->
   <string name="category_audio">Audio</string>
   <string name="sound_title">Geluid verbeteren</string>
   <string name="sound_summary">Configureer de audio-uitvoer gebaseerd op de media-inhoud.</string>
   <string name="enable_sound_title">Inschakelen/uitschakelen van geluidtuner</string>
-  <!-- backlight dimmer -->
   <string name="category_backlight_dimmer">Achtergrondverlichting dimmer</string>
   <string name="backlight_dimmer_title">Achtergrondverlichting dimmer</string>
   <string name="backlight_dimmer_summary">stel minimale helderheid in</string>
-  <!-- fastcharge -->
+  <string name="backlight_dimmer_rev_summary">maximale helderheid van het scherm instellen</string>
   <string name="category_power">Power</string>
   <string name="fastcharge_summary">Snelladen tot 900mA</string>
   <string name="fastcharge_title">Snelladen</string>
-  <!-- Gesture options -->
   <string name="screen_gestures_panel_title">Gebaren</string>
   <string name="category_gestures_title">Apparaatgebaren</string>
   <string name="category_gestures_summary">Configureer gebaaracties</string>
   <string name="offscreen_gesture_title">Offscreen gebaren</string>
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Haptische feedback</string>
   <string name="off_screen_gesture_feedback_summary_head">Schakel haptische feedback in voor gebaren</string>
   <string name="music_play_gesture_title_head">Muziek beheren</string>
@@ -65,7 +60,6 @@
   <string name="ambient_display_entry">Sluimeren</string>
   <string name="choose_app">App/actie kiezen</string>
   <string name="not_ready_summary">Oplossen...</string>
-  <!-- audio gain -->
   <string name="headphone_gain_title">Hoofdtelefoon</string>
   <string name="headphone_gain_summary">Aanpassen voor hoofdtelefoon</string>
   <string name="earpiece_gain_title">Oortelefoon</string>
@@ -74,7 +68,6 @@
   <string name="mic_gain_summary">Aanpassen voor microfoon</string>
   <string name="speaker_gain_title">Luidsprekers</string>
   <string name="speaker_gain_summary">Aanpassen voor luidsprekers</string>
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
   <string name="fp_gesture_title">Vingerafdruk gebaren</string>
   <string name="fp_gesture_title_summary">Voer snelle acties uit door over de vingerafdruk scanner te vegen</string>
   <string name="category_fp_down_swipe_gesture">Vingerafdruk omlaag vegen</string>
@@ -82,12 +75,10 @@
   <string name="category_fp_right_swipe_gesture">Vingerafdruk rechts vegen</string>
   <string name="category_fp_left_swipe_gesture">Vingerafdruk links vegen</string>
   <string name="category_fp_long_press_gesture">Vingerafdruk lang indrukken</string>
-  <!-- Vibrator options -->
   <string name="vib_test">Test</string>
   <string name="vib_strength_title">Systeem</string>
   <string name="vib_notif_strength_title">Notificaties</string>
   <string name="vib_notif_strength_summary">Definieer de sterkte voor inkomende meldingen afzonderlijk</string>
-  <!-- Alert Slider options -->
   <string name="category_slider">Schuifregelaar meldingen</string>
   <string name="slider_mode_title">Slider modus</string>
   <string name="slider_mode_title_top">Bovenste positie</string>
@@ -100,10 +91,8 @@
   <string name="slider_mode_vibrate">Trillen</string>
   <string name="slider_mode_zen">Niet storen</string>
   <string name="slider_mode_flashlight">Zaklamp</string>
-  <!-- Display/Graphics options -->
   <string name="hbm_mode_title">Hoge helderheidsmodus</string>
   <string name="hbm_mode_summary">Schakel maximale helderheid in voor heldere omgeving (heeft invloed op levensduur van de batterij!)</string>
-  <!-- Display panel options -->
   <string name="panel_category_title">Kleurmodi</string>
   <string name="panel_category_summary">Modi weergeven voor kleurcorrectie</string>
   <string name="panel_mode_info">Het uitschakelen van de kleur modi vereist een herstart.</string>
@@ -112,20 +101,16 @@
   <string name="dci_mode_title">DCI-P3 modus</string>
   <string name="oneplus_mode_title">OnePlus modus</string>
   <string name="night_mode_title">Nachtmodus</string>
-  <!-- Screen refresh rate options -->
   <string name="refresh_title">Scherm vernieuwen</string>
   <string name="refresh_rate_title">Forceer maximale verversingsfrequentie</string>
   <string name="auto_refresh_rate_title">Automatisch verversen modus</string>
   <string name="auto_refresh_rate_summary">Laat apps beslissen welke verversingsfrequentie gebruikt moet worden</string>
-  <!-- QS Tiles -->
   <string name="tile_hbm_mode">Hoge helderheidsmodus</string>
   <string name="tile_panel_mode">Kleurmodi</string>
   <string name="tile_refresh_rate">Scherm verversingsfrequentie</string>
-  <!-- Ambient Display -->
   <string name="category_doze">Inactiviteitsdisplay</string>
   <string name="doze_category_title">Notificaties</string>
   <string name="doze_category_summary">Instellen wanneer het scherm moet ontwaken bij meldingen</string>
-  <!-- Buttons -->
   <string name="buttons_title">Knoppen</string>
   <string name="swap_back_recents_title">Wissel Terug en Recents knop</string>
 </resources>

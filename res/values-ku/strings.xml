@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+  <string name="app_name">PartsBin</string>
+  <string name="device_title">ڕێکخستنی پاشکۆی ئامێر</string>
+  <string name="device_summary">ڕێککردنی ڕێکخستنە هاوتاکانی ئامێر</string>
+  <string name="advanced_settings">ڕێکخستنی پەرەسەندوو</string>
+  <string name="wake_entry">هەڵبوون</string>
+  <string name="single_tap_title">تاکەگرتە</string>
+  <string name="single_tap_summary">هەڵبوونی ڕوونما بە تاکەگرتەیەک لە دۆخی AOD</string>
+  <string name="double_tap_title">دووانەگرتە بۆ هەڵبوون</string>
+  <string name="double_tap_summary">هەڵبوونی ڕوونما بەدووجار پەنجەداگرتن</string>
+  <string name="sweep_to_wake_title">ڕاماڵین بۆهەڵبوون</string>
+  <string name="sweep_to_wake_summary">هەڵکردنی ڕوونماکەت بە ڕاماڵینی خوارەوەی مۆبایلەکەت لە چەپەوە بۆ ڕاست</string>
+  <string name="category_audio">دەنگ</string>
+  <string name="sound_title">پەرەپێدانی دەنگ</string>
+  <string name="sound_summary">سازدانی دەنگی دەرچوو بەپێی ناوەڕۆکی میدیاوە.</string>
+  <string name="enable_sound_title">کارا/ناکاراکردنی سازگەری دەنگ</string>
+  <string name="enable_sound_summary">بۆ جێبەجێکردنی گۆڕینەکە پێویستت بە هەڵکردنەوەیە!</string>
+  <string name="enable_sound_info">تێبینی: لەگەڵ چالاککردنی سازگەری دەنگەکان، کاریگەرییەکانیتری وەک MusicFX پێویستە ناچالاک بکرێن.</string>
+  <string name="category_backlight_dimmer">کزکەری ڕووناکی پشتەوە</string>
+  <string name="backlight_dimmer_title">کزکەری ڕووناکی پشتەوە</string>
+  <string name="backlight_dimmer_summary">دانانی کەمترین ڕووناکی نیشاندان</string>
+  <string name="backlight_dimmer_rev_summary">دانانی بەرزترین ڕووناکی نیشاندان</string>
+  <string name="category_power">پاوەر</string>
+  <string name="fastcharge_summary">خێرا بارگاویبوونەوە بۆ سەرووی 900mA</string>
+  <string name="fastcharge_title">بارگاوی خێرا</string>
+  <string name="screen_gestures_panel_title">جوڵانه‌کان</string>
+  <string name="category_gestures_title">جوڵانەکانی ئامێر</string>
+  <string name="category_gestures_summary">سازدانی کردەکانی جوڵانەوە</string>
+  <string name="offscreen_gesture_title">جوڵانەکانی ڕوونماداخراو</string>
+  <string name="off_screen_gesture_feedback_title_head">وڵامدانەوەی دەسلێدان</string>
+  <string name="off_screen_gesture_feedback_summary_head">کاراکردنی وڵامدانەوەی دەسلێدان بۆ جوڵانەکان</string>
+  <string name="music_play_gesture_title_head">کۆنتڕۆڵی میوزیک</string>
+  <string name="music_play_gesture_summary_head">کێشانی || بە دوو پەنجە بۆ لێدان یان ڕاگرتنی میوزیک. کێشانی &lt; یان &gt; بۆ تراکی پێشوو یان دواتر</string>
+  <string name="category_down_swipe_gesture">ڕاکێشان بۆ خوارەوە</string>
+  <string name="category_up_swipe_gesture">ڕاکێشان بۆ سەر</string>
+  <string name="category_left_swipe_gesture">ڕاکێشان بۆ لای چەپ</string>
+  <string name="category_right_swipe_gesture">ڕاکێشان بۆلای ڕاست</string>
+  <string name="category_double_swipe_gesture">|| جووڵەی</string>
+  <string name="category_up_arrow_gesture">A جووڵەی</string>
+  <string name="category_left_arrow_gesture">&lt; جووڵەی</string>
+  <string name="category_right_arrow_gesture">&gt; جووڵەی</string>
+  <string name="category_circle_gesture">O جووڵەی</string>
+  <string name="category_down_arrow_gesture">V جووڵەی</string>
+  <string name="category_m_gesture">M جووڵەی</string>
+  <string name="category_s_gesture">S جووڵەی</string>
+  <string name="category_w_gesture">W جووڵەی</string>
+  <string name="disabled_entry">لەکارخراوە</string>
+  <string name="camera_entry">کامێرا</string>
+  <string name="torch_entry">فلاش لایت</string>
+  <string name="music_play_entry">لێدان/راگرتنی میوزیک</string>
+  <string name="music_prev_entry">تراکی پێشوو</string>
+  <string name="music_next_entry">تراکی دواتر</string>
+  <string name="ambient_display_entry">وەنەوز</string>
+  <string name="choose_app">هەڵبژاردنی ئەپ/کردار</string>
+  <string name="not_ready_summary">چادەکرێتەوە...</string>
+  <string name="resolve_failed_summary">چاکردنەوەی ئەپ سەرنەکەوت</string>
+  <string name="category_audiogains">دەسکەوتەکانی دەنگ</string>
+  <string name="headphone_gain_title">بیستۆک</string>
+  <string name="headphone_gain_summary">ڕێککردنەوە بۆ بیستۆک</string>
+  <string name="earpiece_gain_title">بڵندگۆی گوێ</string>
+  <string name="earpiece_gain_summary">ڕێککردنەوە بۆ بڵندگۆی گوێ</string>
+  <string name="mic_gain_title">مایکرۆفۆن</string>
+  <string name="mic_gain_summary">ڕێککردنەوە بۆ مایکرۆفۆن</string>
+  <string name="speaker_gain_title">بڵندگۆکان</string>
+  <string name="speaker_gain_summary">ڕێککردنەوە بۆ بڵندگۆکان</string>
+  <string name="fp_gesture_title">جوڵانەکانی پەنجەمۆر</string>
+  <string name="fp_gesture_title_summary">ئەنجامدانی کردارە خێراکان لەڕێی هەستەوەری پەنجەمۆرەوە</string>
+  <string name="category_fp_down_swipe_gesture">ڕاکێشان بۆ خوارەوەی پەنجەمۆر</string>
+  <string name="category_fp_up_swipe_gesture">ڕاکێشان بۆ سەرەوەی پەنجەمۆر</string>
+  <string name="category_fp_right_swipe_gesture">ڕاکێشان بۆ لای ڕاستی پەنجەمۆر</string>
+  <string name="category_fp_left_swipe_gesture">ڕاکێشان بۆ لای چەپی پەنجەمۆر</string>
+  <string name="category_fp_long_press_gesture">پەنجەڕاگرتنی پەنجەمۆر</string>
+  <string name="fp_swipe_down_switch_title_head">جوڵەی ڕاکێشانەخواری پەنجەمۆری AOSP</string>
+  <string name="fp_swipe_down_switch_summary_head">کارا/ناکاراکردنی جوڵەی بنەڕەتی ڕاکێشانەخواری ئاگانامە</string>
+  <string name="category_vibrator">لەرزاندن</string>
+  <string name="vib_test">پشکنین</string>
+  <string name="vib_strength_info">تێبینی:\n\nتکایە سەرەتا لەرزین چالاک بکە لە ڕێکخستنەکان- &gt; گەیەنەری- &gt; بەتەواوی لەرزین وڵامی لەرینەوەی هەبێت لە گۆڕینی توندییەکەی.</string>
+  <string name="vib_strength_title">سیستەم</string>
+  <string name="vib_strength_summary">ڕاڤەکردنی ڕەگەزی توندی لەرینەوەکە</string>
+  <string name="vib_call_strength_title">له‌-په‌یوه‌ندی</string>
+  <string name="vib_call_strength_summary">ڕاڤەی توندی بۆ نێو-پەیوەندییە پێشهاتەکان بەجیا</string>
+  <string name="vib_notif_strength_title">ئاگانامەکان</string>
+  <string name="vib_notif_strength_summary">ڕاڤەی توندی لەرزین بۆ بەستنەوەی ئاگانامەکان</string>
+  <string name="category_slider">تەختەی ووریاکەر</string>
+  <string name="slider_mode_title">دۆخی تەختە</string>
+  <string name="slider_mode_title_top">ناوچەی سەرەوە</string>
+  <string name="slider_mode_title_center">ناوچەی ناوەند</string>
+  <string name="slider_mode_title_bottom">ناوچەی خوارەوە</string>
+  <string name="slider_mode_alarm">تەنها ووریاکەرەوە</string>
+  <string name="slider_mode_off">زەنگلێدەر</string>
+  <string name="slider_mode_priority">تەنها پیشەیی</string>
+  <string name="slider_mode_silent">بێدەنگ</string>
+  <string name="slider_mode_vibrate">لەرزین</string>
+  <string name="slider_mode_zen">هەراسانم مەکە</string>
+  <string name="slider_mode_flashlight">فلاش لایت</string>
+  <string name="graphics_title">پیشاندان</string>
+  <string name="dcd_mode_title">DC-Dimming</string>
+  <string name="dcd_mode_summary">کەمترکردنەوەی شەکانەوە لە پیشانداندا</string>
+  <string name="hbm_mode_title">دۆخی ڕووناکی بەرز</string>
+  <string name="hbm_mode_summary">بەکارهێنانی ئەوپەڕی ڕێژەی ڕووناکی (ووزەی پاتری زیاتری دەوێت!)</string>
+  <string name="panel_category_title">دۆخەکانی ڕەنگ</string>
+  <string name="panel_category_summary">دۆخەکانی نیشاندان بۆ چاکسازی ڕەنگ</string>
+  <string name="panel_mode_info">ناکاراکردنی دۆخەکانی ڕەنگ پێویستی بەهەڵکردنەوەیە.</string>
+  <string name="off_mode_title">ناکارا</string>
+  <string name="srgb_mode_title">دۆخی sRGB</string>
+  <string name="dci_mode_title">دۆخی DCI-P3</string>
+  <string name="wide_mode_title">پەیژەی فراوانی ڕەنگی ئەمۆلید</string>
+  <string name="oneplus_mode_title">دۆخی وەنپڵەس</string>
+  <string name="night_mode_title">دۆخی شەو</string>
+  <string name="refresh_title">نوێبوونەوەی ڕوونما</string>
+  <string name="refresh_rate_title">بەکارهێنانی بەرزترین نوێبوونەوە</string>
+  <string name="refresh_rate_summary">هەڵبژێرە لەنێوان ڕێژەکانی نوێبوونەوەی ڕوونما</string>
+  <string name="refresh_rate_warning">بەکارهێنانی بەرزترین ڕێژەی نوێبوونەوەی ڕوونما وائەکا ووزەیەکی زیاتری پاتری بەکارببرێ</string>
+  <string name="auto_refresh_rate_title">نوێبوونەوەی خۆکار</string>
+  <string name="auto_refresh_rate_summary">ڕێدان بەئەپەکان تا خۆیان نوێبوونەوەیان دیاریبکەن</string>
+  <string name="tile_hbm_mode">دۆخی ڕووناکی بەرز</string>
+  <string name="tile_dcd_mode">دۆخی DC Dimming</string>
+  <string name="tile_panel_mode">دۆخەکانی ڕەنگ</string>
+  <string name="tile_refresh_rate">ڕێژەی نوێبوونەوەی ڕوونما</string>
+  <string name="category_doze">ڕوونمای زیندوو</string>
+  <string name="doze_category_title">ئاگانامەکان</string>
+  <string name="doze_category_summary">سازدانی کاتی هەڵبوونی ڕوونما بۆ ئاگانامەکان</string>
+  <string name="buttons_title">دوگمەکان</string>
+  <string name="swap_back_recents_title">ئاڵوگۆڕکردنی دوگمەکانی گەڕانەوە و دوایینەکان</string>
+</resources>

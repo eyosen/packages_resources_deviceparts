@@ -20,28 +20,27 @@
   <string name="wake_entry">Aufwecken</string>
   <string name="single_tap_title">Einmal tippen</string>
   <string name="single_tap_summary">Bildschirm durch einmaliges Antippen aktivieren (bei aktivem Always-On Display)</string>
-  <!-- Audio/Sound enhancer -->
+  <string name="double_tap_title">Aufwecken durch doppeltes Tippen</string>
+  <string name="double_tap_summary">Bildschirm bei zweifachem Tippen einschalten</string>
+  <string name="sweep_to_wake_title">Streichen zum Aufwecken - Sweep to Wake</string>
+  <string name="sweep_to_wake_summary">Gerät aufwecken, indem unten über das Display von links nach rechts gestrichen wird</string>
   <string name="category_audio">Ton</string>
   <string name="sound_title">Klangverbesserung</string>
   <string name="sound_summary">Audioausgabe basierend auf Medieninhalten verbessern.</string>
   <string name="enable_sound_title">Soundtuner aktivieren/deaktivieren</string>
   <string name="enable_sound_summary">Ein Wechsel erfordert einen Neustart für die korrekte Funktion!</string>
   <string name="enable_sound_info">Hinweis: Wenn der Soundtuner aktiviert ist, sollten andere EQ-Effekte, wie z.B. MusicFX, deaktiviert werden.</string>
-  <!-- backlight dimmer -->
   <string name="category_backlight_dimmer">Hintergrundbeleuchtung</string>
   <string name="backlight_dimmer_title">Hintergrundbeleuchtung einstellen</string>
   <string name="backlight_dimmer_summary">Minimale Display-Hintergrundhelligkeit festlegen</string>
-  <!-- fastcharge -->
+  <string name="backlight_dimmer_rev_summary">max. Bildschirmhelligkeit festlegen</string>
   <string name="category_power">Stromversorgung</string>
   <string name="fastcharge_summary">USB-Schnellladung mit max. 900mA</string>
   <string name="fastcharge_title">USB-Schnellladung</string>
-  <!-- Gesture options -->
   <string name="screen_gestures_panel_title">Gesten</string>
   <string name="category_gestures_title">Gerätespezifische Gesten</string>
   <string name="category_gestures_summary">Gesten-Aktionen konfigurieren</string>
   <string name="offscreen_gesture_title">Gesten bei ausgeschaltetem Bildschirm</string>
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Vibration</string>
   <string name="off_screen_gesture_feedback_summary_head">Haptisches Feedback für Gesten aktivieren</string>
   <string name="music_play_gesture_title_head">Musiksteuerung</string>
@@ -69,7 +68,6 @@
   <string name="choose_app">App/Aktion wählen</string>
   <string name="not_ready_summary">Wird zugeordnet...</string>
   <string name="resolve_failed_summary">Zuordnung fehlgeschlagen</string>
-  <!-- audio gain -->
   <string name="category_audiogains">Audio-Verstärkung</string>
   <string name="headphone_gain_title">Kopfhörer</string>
   <string name="headphone_gain_summary">Anpassung der Kopfhörerlautstärke</string>
@@ -79,7 +77,6 @@
   <string name="mic_gain_summary">Anpassung der Mikrofonlautstärke</string>
   <string name="speaker_gain_title">Lautsprecher</string>
   <string name="speaker_gain_summary">Anpassung der Lautsprecherlautstärke</string>
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
   <string name="fp_gesture_title">Fingerabdruck-Gesten</string>
   <string name="fp_gesture_title_summary">Schnelle Aktionen durch Wischen über den Fingerabdrucksensor ausführen</string>
   <string name="category_fp_down_swipe_gesture">Nach unten streichen</string>
@@ -89,7 +86,6 @@
   <string name="category_fp_long_press_gesture">Fingerabdrucksensor lange drücken</string>
   <string name="fp_swipe_down_switch_title_head">AOSP-Geste für das Streichen nach unten</string>
   <string name="fp_swipe_down_switch_summary_head">Schaltet die Standard-Geste für Benachrichtigungen ein/aus</string>
-  <!-- Vibrator options -->
   <string name="category_vibrator">Vibration</string>
   <string name="vib_test">Test</string>
   <string name="vib_strength_info">Hinweis:\n\nBitte zuerst die Vibration generell in den Einstellungen unter Bedienungshilfen -&gt; Vibration vollständig aktivieren, um ein haptisches Feedback beim Ändern der Stärke zu erhalten.</string>
@@ -99,7 +95,6 @@
   <string name="vib_call_strength_summary">Stärke der Vibration für Ereignisse während Anrufen definieren</string>
   <string name="vib_notif_strength_title">Benachrichtigungen</string>
   <string name="vib_notif_strength_summary">Stärke der Vibration bei eingehenden Benachrichtigungen definieren</string>
-  <!-- Alert Slider options -->
   <string name="category_slider">Alert Slider</string>
   <string name="slider_mode_title">Schieberegler-Einstellungen</string>
   <string name="slider_mode_title_top">Position: oben</string>
@@ -112,13 +107,11 @@
   <string name="slider_mode_vibrate">Vibration</string>
   <string name="slider_mode_zen">Bitte nicht stören (DnD)</string>
   <string name="slider_mode_flashlight">Taschenlampe</string>
-  <!-- Display/Graphics options -->
   <string name="graphics_title">Bildschirm</string>
   <string name="dcd_mode_title">Abdunklung (DC-Dimming)</string>
   <string name="dcd_mode_summary">Reduziert Flackern durch \"Undervolting\" des Displays (niedriger Akkuverbrauch)</string>
   <string name="hbm_mode_title">Maximale Helligkeit</string>
   <string name="hbm_mode_summary">Maximale Helligkeit für helle Umgebungen aktivieren (hoher Akkuverbrauch!)</string>
-  <!-- Display panel options -->
   <string name="panel_category_title">Bildschirmkalibrierung</string>
   <string name="panel_category_summary">Farbraum des Bildschirm auswählen</string>
   <string name="panel_mode_info">Die Deaktivierung erfordert einen Neustart.</string>
@@ -128,23 +121,19 @@
   <string name="wide_mode_title">Erweitert (AMOLED)</string>
   <string name="oneplus_mode_title">OnePlus</string>
   <string name="night_mode_title">Nacht</string>
-  <!-- Screen refresh rate options -->
   <string name="refresh_title">Bildwiederholrate</string>
   <string name="refresh_rate_title">Maximale Wiederholrate erzwingen</string>
   <string name="refresh_rate_summary">Zwischen verschiedenen Bildwiederholraten wählen</string>
   <string name="refresh_rate_warning">Das Erzwingen der maximalen Wiederholrate beeinträchtigt die Akkulaufzeit!</string>
   <string name="auto_refresh_rate_title">Automatischer Modus</string>
   <string name="auto_refresh_rate_summary">Anwendungen entscheiden, welche Wiederholrate verwendet wird</string>
-  <!-- QS Tiles -->
   <string name="tile_hbm_mode">Maximale Helligkeit</string>
   <string name="tile_dcd_mode">DC-Dimming</string>
   <string name="tile_panel_mode">Farbmodus</string>
   <string name="tile_refresh_rate">Bildwiederholrate</string>
-  <!-- Ambient Display -->
   <string name="category_doze">Inaktivitätsdisplay</string>
   <string name="doze_category_title">Benachrichtigungen</string>
   <string name="doze_category_summary">Konfigurieren, wann der Bildschirm bei Benachrichtigungen aufgeweckt wird</string>
-  <!-- Buttons -->
   <string name="buttons_title">Tasten</string>
   <string name="swap_back_recents_title">\"Zurück\"- und \"Anwendungsverlauf\"-Taste tauschen</string>
 </resources>

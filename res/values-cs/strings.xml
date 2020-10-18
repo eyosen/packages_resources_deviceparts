@@ -20,25 +20,27 @@
   <string name="wake_entry">Probuzení</string>
   <string name="single_tap_title">Jedno klepnutí</string>
   <string name="single_tap_summary">Probudit obrazovku jedním klepnutím v režimu „Vždy zapnuto“</string>
-  <!-- Audio/Sound enhancer -->
+  <string name="double_tap_title">Probuzení dvojím dotykem</string>
+  <string name="double_tap_summary">Probudit obrazovku dvojím dotykem</string>
+  <string name="sweep_to_wake_title">Probuzení přejetím</string>
+  <string name="sweep_to_wake_summary">Probuzení telefonu přejetím na spodní části obrazovky zleva doprava</string>
   <string name="category_audio">Zvuk</string>
   <string name="sound_title">Vylepšení zvuku</string>
   <string name="sound_summary">Nastavte zvukový výstup na základě mediálního obsahu.</string>
-  <!-- backlight dimmer -->
+  <string name="enable_sound_title">Zapnout/vypnout vylepšení zvuku</string>
+  <string name="enable_sound_summary">Aby se projevily změny, je VYŽADOVÁN restart!</string>
+  <string name="enable_sound_info">Poznámka: Při zapnutém vylepšení zvuku by měly být ostatní efekty ekvalizérů jako MusicFX vypnuty.</string>
   <string name="category_backlight_dimmer">Snížení podsvícení</string>
   <string name="backlight_dimmer_title">Snížení podsvícení</string>
   <string name="backlight_dimmer_summary">nastavení minimálního jasu displeje</string>
-  <!-- fastcharge -->
+  <string name="backlight_dimmer_rev_summary">Nastavení maximálního jasu displeje</string>
   <string name="category_power">Napájení</string>
   <string name="fastcharge_summary">Rychlé nabíjení až do 900 mA</string>
   <string name="fastcharge_title">Rychlé nabíjení</string>
-  <!-- Gesture options -->
   <string name="screen_gestures_panel_title">Gesta</string>
   <string name="category_gestures_title">Gesta zařízení</string>
   <string name="category_gestures_summary">Nastavení akcí pro gesta</string>
   <string name="offscreen_gesture_title">Gesta při vypnuté obrazovce</string>
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Hmatová odezva</string>
   <string name="off_screen_gesture_feedback_summary_head">Povolit hmatovou odezvu pro gesta</string>
   <string name="music_play_gesture_title_head">Ovládání hudby</string>
@@ -66,7 +68,6 @@
   <string name="choose_app">Vyberte aplikaci/akci</string>
   <string name="not_ready_summary">Řešení...</string>
   <string name="resolve_failed_summary">Řešení aplikací selhalo</string>
-  <!-- audio gain -->
   <string name="category_audiogains">Zesílení zvuku</string>
   <string name="headphone_gain_title">Sluchátka</string>
   <string name="headphone_gain_summary">Nastavení pro sluchátka</string>
@@ -76,14 +77,63 @@
   <string name="mic_gain_summary">Nastavení pro mikrofon</string>
   <string name="speaker_gain_title">Reproduktory</string>
   <string name="speaker_gain_summary">Nastavení pro reproduktory</string>
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
   <string name="fp_gesture_title">Gesta pomocí otisků prstů</string>
-  <!-- Vibrator options -->
-  <!-- Alert Slider options -->
-  <!-- Display/Graphics options -->
-  <!-- Display panel options -->
-  <!-- Screen refresh rate options -->
-  <!-- QS Tiles -->
-  <!-- Ambient Display -->
-  <!-- Buttons -->
+  <string name="fp_gesture_title_summary">Provedení rychlých akcí pomocí snímače otisků prstů</string>
+  <string name="category_fp_down_swipe_gesture">Posunutí dolů otiskem prstu</string>
+  <string name="category_fp_up_swipe_gesture">Posunutí nahoru otiskem prstu</string>
+  <string name="category_fp_right_swipe_gesture">Posunutí doprava otiskem prstu</string>
+  <string name="category_fp_left_swipe_gesture">Posunutí doleva otiskem prstu</string>
+  <string name="category_fp_long_press_gesture">Dlouhý stisk otisku prstu</string>
+  <string name="fp_swipe_down_switch_title_head">AOSP Gesto přejetím otiskem prstu dolů</string>
+  <string name="fp_swipe_down_switch_summary_head">Zapnutí/vypnutí výchozího oznámení gestem přejetím dolů</string>
+  <string name="category_vibrator">Vibrace</string>
+  <string name="vib_test">Test</string>
+  <string name="vib_strength_info">Poznámka:\n\nZapněte prosím nejprve vibrace v Nastavení -&gt; Přístupnost -&gt; Vibrace, abyste získali hmatovou odezvu při změně síly vibrací.</string>
+  <string name="vib_strength_title">Systém</string>
+  <string name="vib_strength_summary">Definovat obecnou sílu vibrací</string>
+  <string name="vib_call_strength_title">Během hovoru</string>
+  <string name="vib_call_strength_summary">Definovat sílu vibrací během hovoru</string>
+  <string name="vib_notif_strength_title">Oznámení</string>
+  <string name="vib_notif_strength_summary">Definovat sílu vibrací pro oznámení</string>
+  <string name="category_slider">Posuvník oznámení</string>
+  <string name="slider_mode_title">Režimy posuvníku</string>
+  <string name="slider_mode_title_top">Pozice nahoře</string>
+  <string name="slider_mode_title_center">Pozice uprostřed</string>
+  <string name="slider_mode_title_bottom">Pozice dole</string>
+  <string name="slider_mode_alarm">Pouze budíky</string>
+  <string name="slider_mode_off">Vyzvánění</string>
+  <string name="slider_mode_priority">Pouze prioritní</string>
+  <string name="slider_mode_silent">Tichý režim</string>
+  <string name="slider_mode_vibrate">Vibrace</string>
+  <string name="slider_mode_zen">Nerušit</string>
+  <string name="slider_mode_flashlight">Svítilna</string>
+  <string name="graphics_title">Displej</string>
+  <string name="dcd_mode_title">DC – Ztlumení</string>
+  <string name="dcd_mode_summary">Snížit blikání displeje</string>
+  <string name="hbm_mode_title">Režim vysokého jasu</string>
+  <string name="hbm_mode_summary">Zapnout maximální jas pro jasné prostředí (ovlivňuje životnost baterie!)</string>
+  <string name="panel_category_title">Barevné režimy</string>
+  <string name="panel_category_summary">Režimy displeje pro korekci barev</string>
+  <string name="panel_mode_info">Vypnutí barevných režimů vyžaduje restart.</string>
+  <string name="off_mode_title">Vyp.</string>
+  <string name="srgb_mode_title">Režim sRGB</string>
+  <string name="dci_mode_title">Režim DCI-P3</string>
+  <string name="wide_mode_title">Režim širokého spektra barev AMOLED</string>
+  <string name="oneplus_mode_title">Režim OnePlus</string>
+  <string name="night_mode_title">Noční režim</string>
+  <string name="refresh_title">Obnovovací frekvence obrazovky</string>
+  <string name="refresh_rate_title">Vynutit maximální obnovovací frekvenci</string>
+  <string name="refresh_rate_summary">Vyberte mezi různými maximálními obnovovacími frekvencemi</string>
+  <string name="refresh_rate_warning">Používání vynucené maximální frekvence bude mít významný vliv na životnost baterie</string>
+  <string name="auto_refresh_rate_title">Automatický režim obnovení</string>
+  <string name="auto_refresh_rate_summary">Nechte aplikace rozhodnout, jakou obnovovací frekvenci použít</string>
+  <string name="tile_hbm_mode">Režim vysokého jasu</string>
+  <string name="tile_dcd_mode">Režim DC – Ztlumení</string>
+  <string name="tile_panel_mode">Barevné režimy</string>
+  <string name="tile_refresh_rate">Obnovovací frekvence obrazovky</string>
+  <string name="category_doze">Ambientní displej</string>
+  <string name="doze_category_title">Oznámení</string>
+  <string name="doze_category_summary">Nastavte, kdy se obrazovka probudí, když přijde oznámení</string>
+  <string name="buttons_title">Tlačítka</string>
+  <string name="swap_back_recents_title">Prohodit tlačítka „Nedávné“ a „Zpět“</string>
 </resources>

@@ -14,20 +14,15 @@
      limitations under the License.
 -->
 <resources>
-  <!-- Audio/Sound enhancer -->
-  <!-- backlight dimmer -->
-  <!-- fastcharge -->
-  <!-- Gesture options -->
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
-  <!-- audio gain -->
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
-  <!-- Vibrator options -->
-  <!-- Alert Slider options -->
-  <!-- Display/Graphics options -->
-  <!-- Display panel options -->
-  <!-- Screen refresh rate options -->
-  <!-- QS Tiles -->
-  <!-- Ambient Display -->
-  <!-- Buttons -->
+  <string name="category_backlight_dimmer">Przyciemnianie podświetlenia</string>
+  <string name="backlight_dimmer_title">Przyciemnianie podświetlenia</string>
+  <string name="backlight_dimmer_summary">ustaw minimalną jasność ekranu</string>
+  <string name="category_audiogains">Zyski dźwięku</string>
+  <string name="headphone_gain_title">Słuchawki</string>
+  <string name="headphone_gain_summary">Dostosuj słuchawki</string>
+  <string name="earpiece_gain_title">Słuchawki</string>
+  <string name="mic_gain_title">Mikrofon</string>
+  <string name="mic_gain_summary">Dostosuj mikrofon</string>
+  <string name="speaker_gain_title">Głośniki</string>
+  <string name="speaker_gain_summary">Dostosuj głośniki</string>
 </resources>

@@ -20,28 +20,27 @@
   <string name="wake_entry">Despertar</string>
   <string name="single_tap_title">Un solo toque</string>
   <string name="single_tap_summary">Despierta la pantalla al hacer un solo toque en modo AOD</string>
-  <!-- Audio/Sound enhancer -->
+  <string name="double_tap_title">Doble toque para despertar</string>
+  <string name="double_tap_summary">Enciende la pantalla con doble toque</string>
+  <string name="sweep_to_wake_title">Deslizar para despertar</string>
+  <string name="sweep_to_wake_summary">Despierta tu teléfono deslizando el dedo en la parte inferior de la pantalla de izquierda a derecha</string>
   <string name="category_audio">Audio</string>
   <string name="sound_title">Mejora de sonido</string>
   <string name="sound_summary">Configure la salida de audio basada en el contenido multimedia.</string>
   <string name="enable_sound_title">Activar/Desactivar Sintonizador de Sonido</string>
   <string name="enable_sound_summary">El cambio REQUIERE un reinicio para aplicarse!</string>
   <string name="enable_sound_info">Nota: Con el Sintonizador de Sonido activado, otros efectos EQ como MusicFX deben estar desactivados.</string>
-  <!-- backlight dimmer -->
   <string name="category_backlight_dimmer">Atenuador de retroiluminación</string>
   <string name="backlight_dimmer_title">Atenuador de retroiluminación</string>
   <string name="backlight_dimmer_summary">establecer el brillo mínimo de la pantalla</string>
-  <!-- fastcharge -->
+  <string name="backlight_dimmer_rev_summary">establecer brillo máximo de pantalla</string>
   <string name="category_power">Potencia</string>
   <string name="fastcharge_summary">Carga rápida hasta 900mA</string>
   <string name="fastcharge_title">Carga rápida vía USB</string>
-  <!-- Gesture options -->
   <string name="screen_gestures_panel_title">Gestos</string>
   <string name="category_gestures_title">Gestos del dispositivo</string>
   <string name="category_gestures_summary">Configurar acciones de gestos</string>
   <string name="offscreen_gesture_title">Gestos con pantalla apagada</string>
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Respuesta háptica</string>
   <string name="off_screen_gesture_feedback_summary_head">Activar respuesta háptica para gestos</string>
   <string name="music_play_gesture_title_head">Control de música</string>
@@ -69,7 +68,6 @@
   <string name="choose_app">Elegir aplicación/acción</string>
   <string name="not_ready_summary">Resolviendo...</string>
   <string name="resolve_failed_summary">Error al resolver la aplicación</string>
-  <!-- audio gain -->
   <string name="category_audiogains">Ganancia de audio</string>
   <string name="headphone_gain_title">Auriculares</string>
   <string name="headphone_gain_summary">Ajustes para auriculares</string>
@@ -79,7 +77,6 @@
   <string name="mic_gain_summary">Ajustes para micrófono</string>
   <string name="speaker_gain_title">Altavoces</string>
   <string name="speaker_gain_summary">Ajustes para altavoces</string>
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
   <string name="fp_gesture_title">Gestos de lector de huella dactilar</string>
   <string name="fp_gesture_title_summary">Realizar acciones rápidas deslizando sobre el escáner de huella</string>
   <string name="category_fp_down_swipe_gesture">Deslizar hacia abajo en sensor huella</string>
@@ -89,7 +86,6 @@
   <string name="category_fp_long_press_gesture">Pulsación larga en lector de huella</string>
   <string name="fp_swipe_down_switch_title_head">Gesto AOSP deslizar hacia abajo en lector de huella</string>
   <string name="fp_swipe_down_switch_summary_head">Activar/desactivar el gesto hacia abajo para notificaciones por defecto</string>
-  <!-- Vibrator options -->
   <string name="category_vibrator">Vibración</string>
   <string name="vib_test">Prueba</string>
   <string name="vib_strength_info">Nota:\n\nPor favor, active primero la Vibración en Ajustes -&gt; Accesibilidad -&gt; Vibración completamente para obtener un feedback háptico sobre el cambio de potencia.</string>
@@ -99,7 +95,6 @@
   <string name="vib_call_strength_summary">Definir la intensidad de los eventos de llamada por separado</string>
   <string name="vib_notif_strength_title">Notificaciones</string>
   <string name="vib_notif_strength_summary">Definir la intensidad de las notificaciones entrantes por separado</string>
-  <!-- Alert Slider options -->
   <string name="category_slider">Interruptor de notificaciones</string>
   <string name="slider_mode_title">Modo del interruptor</string>
   <string name="slider_mode_title_top">Posición superior</string>
@@ -112,13 +107,11 @@
   <string name="slider_mode_vibrate">Vibrar</string>
   <string name="slider_mode_zen">No Molestar</string>
   <string name="slider_mode_flashlight">Linterna</string>
-  <!-- Display/Graphics options -->
   <string name="graphics_title">Pantalla</string>
   <string name="dcd_mode_title">Atenuación DC</string>
   <string name="dcd_mode_summary">Reduce el parpadeo sin disminuir el voltaje de la pantalla</string>
   <string name="hbm_mode_title">Modo de brillo alto</string>
   <string name="hbm_mode_summary">Habilita el brillo máximo para entornos con mucha luz (¡Reduce la duración de la batería!)</string>
-  <!-- Display panel options -->
   <string name="panel_category_title">Modo de color</string>
   <string name="panel_category_summary">Mostrar modos para la corrección de color</string>
   <string name="panel_mode_info">Deshabilitar modos de color necesita un reinicio.</string>
@@ -128,23 +121,19 @@
   <string name="wide_mode_title">AMOLED Wide Gamut</string>
   <string name="oneplus_mode_title">Modo OnePlus</string>
   <string name="night_mode_title">Modo nocturno</string>
-  <!-- Screen refresh rate options -->
   <string name="refresh_title">Refresco de pantalla</string>
   <string name="refresh_rate_title">Forzar a máxima frecuencia de refresco</string>
   <string name="refresh_rate_summary">Elija entre diferentes picos de frecuencia de fefresco</string>
   <string name="refresh_rate_warning">El uso forzado de la frecuencia de refresco máxima afectará significativamente a la duración de la batería</string>
   <string name="auto_refresh_rate_title">Modo de refresco automático</string>
   <string name="auto_refresh_rate_summary">Permitir que las aplicaciones decidan qué frecuencia de refresco usar</string>
-  <!-- QS Tiles -->
   <string name="tile_hbm_mode">Modo de brillo alto</string>
   <string name="tile_dcd_mode">Modo de atenuación DC</string>
   <string name="tile_panel_mode">Modos de color</string>
   <string name="tile_refresh_rate">Frecuencia de actualización de la pantalla</string>
-  <!-- Ambient Display -->
   <string name="category_doze">Pantalla ambiente</string>
   <string name="doze_category_title">Notificaciones</string>
   <string name="doze_category_summary">Configurar cuándo encender la pantalla al entrar notificaciones</string>
-  <!-- Buttons -->
   <string name="buttons_title">Botones</string>
   <string name="swap_back_recents_title">Intercambiar botones atrás y recientes</string>
 </resources>

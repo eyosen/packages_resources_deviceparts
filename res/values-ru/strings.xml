@@ -20,25 +20,27 @@
   <string name="wake_entry">Пробуждение</string>
   <string name="single_tap_title">Одиночное нажатие</string>
   <string name="single_tap_summary">Пробуждать экран одиночным нажатием в режиме AOD</string>
-  <!-- Audio/Sound enhancer -->
+  <string name="double_tap_title">Включение экрана двойным нажатием</string>
+  <string name="double_tap_summary">Включать экран двойным нажатием</string>
+  <string name="sweep_to_wake_title">Провести для сна</string>
+  <string name="sweep_to_wake_summary">Пробуждать телефон проведением пальцем внизу экрана слева направо</string>
   <string name="category_audio">Аудио</string>
   <string name="sound_title">Улучшение звука</string>
   <string name="sound_summary">Настроить аудиовыход на основе медиа-контента.</string>
   <string name="enable_sound_title">Включить/Выключить Звуковой тюнер</string>
   <string name="enable_sound_summary">Для переключения ТРЕБУЕТСЯ перезагрузка, чтобы заработало!</string>
   <string name="enable_sound_info">Примечание: При включенном Звуковом тюнере следует отключить другие приложения-эквалайзеры, такие как MusicFX.</string>
-  <!-- backlight dimmer -->
-  <!-- fastcharge -->
+  <string name="category_backlight_dimmer">Яркость подсветки</string>
+  <string name="backlight_dimmer_title">Яркость подсветки</string>
+  <string name="backlight_dimmer_summary">установить минимальную яркость дисплея</string>
+  <string name="backlight_dimmer_rev_summary">задать максимальную яркость дисплея</string>
   <string name="category_power">Питание</string>
   <string name="fastcharge_summary">Быстрая зарядка до 900мА</string>
   <string name="fastcharge_title">Быстрая зарядка</string>
-  <!-- Gesture options -->
   <string name="screen_gestures_panel_title">Жесты</string>
   <string name="category_gestures_title">Жесты устройства</string>
   <string name="category_gestures_summary">Настроить действия для жестов</string>
   <string name="offscreen_gesture_title">Жесты при выключенном экране</string>
-  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
-  <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Виброотклик</string>
   <string name="off_screen_gesture_feedback_summary_head">Включить виброотклик для жестов</string>
   <string name="music_play_gesture_title_head">Управление музыкой</string>
@@ -66,8 +68,15 @@
   <string name="choose_app">Выберите приложение/действие</string>
   <string name="not_ready_summary">Исправление...</string>
   <string name="resolve_failed_summary">Исправление приложения не удалось</string>
-  <!-- audio gain -->
-  <!-- fingerprnt gestures - NOT for in-screen sensors -->
+  <string name="category_audiogains">Усиление звука</string>
+  <string name="headphone_gain_title">Наушники</string>
+  <string name="headphone_gain_summary">Настроить для наушников</string>
+  <string name="earpiece_gain_title">Разговорный динамик</string>
+  <string name="earpiece_gain_summary">Настроить для разговорного динамика</string>
+  <string name="mic_gain_title">Микрофон</string>
+  <string name="mic_gain_summary">Настроить для микрофона</string>
+  <string name="speaker_gain_title">Динамики</string>
+  <string name="speaker_gain_summary">Настроить для динамиков</string>
   <string name="fp_gesture_title">Жесты сканера отпечатков</string>
   <string name="fp_gesture_title_summary">Выполнение быстрых действий свайпами по сканеру отпечатков</string>
   <string name="category_fp_down_swipe_gesture">Свайп вниз по сканеру отпечатков</string>
@@ -77,7 +86,6 @@
   <string name="category_fp_long_press_gesture">Долгое нажатие на сканер отпечатков</string>
   <string name="fp_swipe_down_switch_title_head">AOSP свайп вниз по отпечатку отпечатков</string>
   <string name="fp_swipe_down_switch_summary_head">Вкл/выкл уведомление по умолчанию для свайпа вниз</string>
-  <!-- Vibrator options -->
   <string name="category_vibrator">Вибрация</string>
   <string name="vib_test">Тест</string>
   <string name="vib_strength_info">Примечание:\n\nСначала включите Вибрацию в Настройках -&gt; Доступность -&gt; Вибрация полностью для срабатывани виброотклика при изменении мощности вибрации.</string>
@@ -87,7 +95,6 @@
   <string name="vib_call_strength_summary">Установить отдельную интенсивность для событий во время звонка</string>
   <string name="vib_notif_strength_title">Уведомления</string>
   <string name="vib_notif_strength_summary">Установить отдельную интенсивность для входящих уведомлений</string>
-  <!-- Alert Slider options -->
   <string name="category_slider">Alert Slider</string>
   <string name="slider_mode_title">Режим слайдера</string>
   <string name="slider_mode_title_top">Верхнее положение</string>
@@ -100,13 +107,11 @@
   <string name="slider_mode_vibrate">Вибрация</string>
   <string name="slider_mode_zen">Не беспокоить</string>
   <string name="slider_mode_flashlight">Фонарик</string>
-  <!-- Display/Graphics options -->
   <string name="graphics_title">Экран</string>
   <string name="dcd_mode_title">DC Dimming</string>
   <string name="dcd_mode_summary">Уменьшить мерцание путем понижения напряжения экрана</string>
   <string name="hbm_mode_title">Режим высокой яркости</string>
   <string name="hbm_mode_summary">Включить максимальную яркость для яркого окружения (Влияет на срок службы батареи!)</string>
-  <!-- Display panel options -->
   <string name="panel_category_title">Цветовые режимы</string>
   <string name="panel_category_summary">Режимы экрана для цветовой коррекции</string>
   <string name="panel_mode_info">Для отключения режимов цвета требуется перезагрузка.</string>
@@ -116,23 +121,19 @@
   <string name="wide_mode_title">Широкая цветовая гамма AMOLED</string>
   <string name="oneplus_mode_title">Режим OnePlus</string>
   <string name="night_mode_title">Ночной режим</string>
-  <!-- Screen refresh rate options -->
   <string name="refresh_title">Частота обновления экрана</string>
   <string name="refresh_rate_title">Принудительное включение максимальной частоты обновления</string>
   <string name="refresh_rate_summary">Выберите между различными максимальными частотами обновления</string>
   <string name="refresh_rate_warning">Использование принудительной максимальной частоты обновления существенно повлияет на срок службы батареи</string>
   <string name="auto_refresh_rate_title">Автоматический режим обновления</string>
   <string name="auto_refresh_rate_summary">Разрешить приложениям решать, какую частоту обновления использовать</string>
-  <!-- QS Tiles -->
   <string name="tile_hbm_mode">Режим высокой яркости</string>
   <string name="tile_dcd_mode">DC Dimming режим</string>
   <string name="tile_panel_mode">Цветовые режимы</string>
   <string name="tile_refresh_rate">Частота обновления экрана</string>
-  <!-- Ambient Display -->
   <string name="category_doze">Ambient Display</string>
   <string name="doze_category_title">Уведомления</string>
   <string name="doze_category_summary">Настроить, когда включать экран для уведомлений</string>
-  <!-- Buttons -->
   <string name="buttons_title">Кнопки</string>
   <string name="swap_back_recents_title">Поменять местами кнопки Назад и Недавние</string>
 </resources>
