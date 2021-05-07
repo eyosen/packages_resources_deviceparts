@@ -179,4 +179,13 @@
   <string name="buttons_title">Buttons</string>
   <string name="swap_back_recents_summary"></string>
   <string name="swap_back_recents_title">Swap back and recents button</string>
+
+  <!-- DO NOT TRANSLATE Summary placeholder -->
+  <string name="summary_placeholder" translatable="false">&#160;</string>
+
+  <!-- Display peak refresh rate -->
+  <string name="display_peak_refresh_rate_title">Peak refresh rate</string>
+
+  <!-- Display min refresh rate -->
+  <string name="display_min_refresh_rate_title">Minimum refresh rate</string>
 </resources>
