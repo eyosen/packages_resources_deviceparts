@@ -27,7 +27,7 @@
   <string name="sweep_to_wake_title">Sweep to wake</string>
   <string name="sweep_to_wake_summary">With screen OFF, wake your phone by sweeping on the bottom of the display from left to right</string>
   <string name="sweep_to_sleep_title">Sweep to sleep</string>
-  <string name="sweep_to_sleep_summary">Win screen ON, put your phone to sleep by sweeping on the bottom of the display from left to right</string>
+  <string name="sweep_to_sleep_summary">With screen ON, put your phone to sleep by sweeping on the bottom of the display from left to right</string>
 
   <!-- Audio/Sound enhancer -->
   <string name="category_audio">Audio</string>
