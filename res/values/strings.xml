@@ -188,4 +188,9 @@
 
   <!-- Display min refresh rate -->
   <string name="display_min_refresh_rate_title">Minimum refresh rate</string>
+
+  <!-- Dolby atmos package -->
+  <string name="dolby_atmos_packagename">com.dolby.daxservice</string>
+  <!-- Sound tuner package -->
+  <string name="sound_tuner_packagename">com.oneplus.sound.tuner</string>
 </resources>
